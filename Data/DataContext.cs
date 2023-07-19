@@ -18,7 +18,7 @@ namespace RelacionamentosEF.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Blog;Trusted_Connection=True;TrustServerCertificate=True");
+            options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Relacionamentos;Trusted_Connection=True;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

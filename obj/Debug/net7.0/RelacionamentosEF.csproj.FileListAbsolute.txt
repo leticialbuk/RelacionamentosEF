@@ -61,3 +61,8 @@ C:\Dev\RelacionamentosEF\obj\Debug\net7.0\refint\RelacionamentosEF.dll
 C:\Dev\RelacionamentosEF\obj\Debug\net7.0\RelacionamentosEF.pdb
 C:\Dev\RelacionamentosEF\obj\Debug\net7.0\RelacionamentosEF.genruntimeconfig.cache
 C:\Dev\RelacionamentosEF\obj\Debug\net7.0\ref\RelacionamentosEF.dll
+C:\Dev\RelacionamentosEF\bin\Debug\net7.0\Humanizer.dll
+C:\Dev\RelacionamentosEF\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Dev\RelacionamentosEF\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Dev\RelacionamentosEF\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Dev\RelacionamentosEF\bin\Debug\net7.0\System.CodeDom.dll
