@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RelacionamentosEF.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class BancoEF : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,10 +16,10 @@ namespace RelacionamentosEF.Migrations
                 table: "Post",
                 type: "SMALLDATETIME",
                 nullable: false,
-                defaultValue: new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441),
+                defaultValue: new DateTime(2023, 7, 21, 2, 30, 21, 456, DateTimeKind.Utc).AddTicks(6946),
                 oldClrType: typeof(DateTime),
                 oldType: "SMALLDATETIME",
-                oldDefaultValue: new DateTime(2023, 7, 19, 1, 29, 3, 873, DateTimeKind.Utc).AddTicks(9865));
+                oldDefaultValue: new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441));
         }
 
         /// <inheritdoc />
@@ -30,10 +30,10 @@ namespace RelacionamentosEF.Migrations
                 table: "Post",
                 type: "SMALLDATETIME",
                 nullable: false,
-                defaultValue: new DateTime(2023, 7, 19, 1, 29, 3, 873, DateTimeKind.Utc).AddTicks(9865),
+                defaultValue: new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441),
                 oldClrType: typeof(DateTime),
                 oldType: "SMALLDATETIME",
-                oldDefaultValue: new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441));
+                oldDefaultValue: new DateTime(2023, 7, 21, 2, 30, 21, 456, DateTimeKind.Utc).AddTicks(6946));
         }
     }
 }

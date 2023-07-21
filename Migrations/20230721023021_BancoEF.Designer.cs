@@ -12,8 +12,8 @@ using RelacionamentosEF.Data;
 namespace RelacionamentosEF.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230719013455_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230721023021_BancoEF")]
+    partial class BancoEF
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,7 +92,7 @@ namespace RelacionamentosEF.Migrations
                     b.Property<DateTime>("LastUpdateDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("SMALLDATETIME")
-                        .HasDefaultValue(new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441))
+                        .HasDefaultValue(new DateTime(2023, 7, 21, 2, 30, 21, 456, DateTimeKind.Utc).AddTicks(6946))
                         .HasColumnName("LastUpdateDate");
 
                     b.Property<string>("Slug")

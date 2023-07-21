@@ -89,7 +89,7 @@ namespace RelacionamentosEF.Migrations
                     b.Property<DateTime>("LastUpdateDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("SMALLDATETIME")
-                        .HasDefaultValue(new DateTime(2023, 7, 19, 1, 34, 55, 806, DateTimeKind.Utc).AddTicks(5441))
+                        .HasDefaultValue(new DateTime(2023, 7, 21, 2, 30, 21, 456, DateTimeKind.Utc).AddTicks(6946))
                         .HasColumnName("LastUpdateDate");
 
                     b.Property<string>("Slug")
