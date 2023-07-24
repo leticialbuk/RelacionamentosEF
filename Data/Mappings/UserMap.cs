@@ -35,6 +35,7 @@ namespace RelacionamentosEF.Data.Mappings
             builder.Property(x => x.PasswordHash);
             builder.Property(x => x.Image);
             builder.Property(x => x.Bio);
+            builder.Property(x => x.GitHub);
 
             builder.Property(x => x.Slug)
                 .IsRequired()
